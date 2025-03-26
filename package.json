@@ -1,0 +1,33 @@
+{
+  "name": "monitor2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "main": "electron/electron.js",
+  "author": "z",
+  "description": "map",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@vicons/carbon": "^0.12.0",
+    "@vicons/ionicons5": "^0.12.0",
+    "@vicons/material": "^0.12.0",
+    "axios": "^1.7.5",
+    "echarts": "^5.5.1",
+    "electron": "^35.1.0",
+    "naive-ui": "^2.39.0",
+    "pinia": "^2.2.2",
+    "pinia-plugin-persistedstate": "^4.0.0-alpha.4",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.1"
+  }
+}
